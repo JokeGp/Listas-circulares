@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base control</title>   
+</head>
+<body>
+    <h2>Route station</h2>
+    <div class="container">
+        <div class="basesContainer">
+            <div class="base">
+                <input type="text" placeholder="Base name" id="name">
+            </div>
+            <div class="minutes">
+                <input type="text" placeholder="Minutes of duration" id="minutes">
+            </div>
+            <input type="button" value="Add base" id="btnAdd">
+            <input type="button" value="List bases" id="btnList">
+        </div>
+        <div class="formDel">
+            <div class="deleteSection">
+                <input type="text" placeholder="A base to delete" id="nameDel">
+            </div>
+            <input type="button" value="Delete base" id="btnDelete">
+        </div>
+        <div class="cardContainer">
+            <div class="nomCard">
+                <input type="text" placeholder="Initial base" id="card">
+            </div>
+            <div class="hourCard">
+                <input type="text" placeholder="Start at hour" id="cardHour">
+            </div>
+            <div class="minutesCard">
+                <input type="text" placeholder="Total of minutes" id="minutes">
+            </div>
+            <input type="button" value="Create card" id="btnCreateCard">
+        </div>
+    </div>
+        <div id="details"></div>
+    <script src="script.js"></script>
+</body>
+</html>
